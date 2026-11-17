@@ -3,6 +3,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '../../../../components/Navbar';
 import categories from '../../../../data/grasp-verification-papers.json';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { renderMarkdown } from '../../../../lib/renderMarkdown.mjs';
 
 const topic = '/research/embodied-grasp-verification';
 const overview = '/posts/embodied-grasp-verification/';
@@ -62,6 +65,18 @@ export default async function ResearchPage(props: Props) {
   const { category, paper } = await getEntry(props);
   const categoryUrl = `${topic}/${category.id}/`;
   const failBench = categories.find(item => item.id === 'benchmarks')?.papers.find(item => item.title.startsWith('FailBench:'));
+  let noteHtml = '';
+  if (paper) {
+    try {
+      const markdown = await readFile(path.join(process.cwd(), 'research-notes', `${paper.id}.md`), 'utf8');
+      noteHtml = await renderMarkdown(markdown.replace(
+        '[已有 RE10K 记录](stress_round/低覆盖重建实验记录.md)',
+        '已有 RE10K 记录（本地文档《低覆盖重建实验记录》）',
+      ));
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
+    }
+  }
 
   return (
     <div className="min-h-screen">
@@ -79,7 +94,20 @@ export default async function ResearchPage(props: Props) {
                 {[paper.year, paper.venue, paper.scope].filter(Boolean).join(' · ')}
               </p>
               <p className="mt-4"><a className={linkStyle} href={paper.url}>阅读原文</a></p>
-              <p className="mt-8 border-t border-slate-300/60 pt-5 text-slate-600 dark:border-slate-700 dark:text-slate-300">笔记待补充。</p>
+              {noteHtml ? (
+                <>
+                  <style>{`
+                    .research-note { overflow-wrap: anywhere; }
+                    .research-note table { display: block; max-width: 100%; overflow-x: auto; }
+                    .research-note th, .research-note td { min-width: 7rem; padding: 0.6rem; vertical-align: top; }
+                    .research-note .katex-display { max-width: 100%; overflow-x: auto; overflow-y: hidden; padding-block: 0.4rem; }
+                    .research-note pre { overflow-x: auto; }
+                  `}</style>
+                  <article className="research-note prose prose-slate dark:prose-invert mt-8 max-w-none border-t border-slate-300/60 pt-5 dark:border-slate-700" dangerouslySetInnerHTML={{ __html: noteHtml }} />
+                </>
+              ) : (
+                <p className="mt-8 border-t border-slate-300/60 pt-5 text-slate-600 dark:border-slate-700 dark:text-slate-300">笔记待补充。</p>
+              )}
             </>
           ) : (
             <>

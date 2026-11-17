@@ -71,7 +71,7 @@ test('preserves GFM tables and displays HTML examples as code', async () => {
 });
 
 test('all three routes use the shared sanitizer and retain their newline preprocessing', async () => {
-  for (const path of ['app/about/page.tsx', 'app/chatter/[slug]/page.tsx', 'app/posts/[slug]/page.tsx']) {
+  for (const path of ['app/about/page.tsx', 'app/chatter/[slug]/page.chatters.tsx', 'app/posts/[slug]/page.posts.tsx']) {
     const source = await readFile(path, 'utf8');
     assert.match(source, /await renderMarkdown\(content\)/, path);
     assert.match(source, /'<br\/?>'\.repeat\(brCount\)/, path);

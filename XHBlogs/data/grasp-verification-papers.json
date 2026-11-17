@@ -1,0 +1,847 @@
+[
+  {
+    "id": "methods",
+    "name": "方法论文",
+    "contribution": "提出新的算法、模型、训练策略或决策机制",
+    "evidence": "在公平对照下比现有方法更有效，并通过消融说明哪些设计起了作用",
+    "note": "",
+    "papers": [
+      {
+        "id": "76ff3590ce38",
+        "title": "RoboFailRing: Retrieval-Augmented and Language Grounding Failure Detection for VLM-enabled Robotic Manipulation",
+        "url": "https://aclanthology.org/2026.acl-long.602/",
+        "year": 2026,
+        "venue": "ACL 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "e2740da97afd",
+        "title": "NeurVLA: Unleashing Failure-Handling Capability of Vision-Language-Action Models via Neural-Symbolic Reasoning",
+        "url": "https://proceedings.mlr.press/v306/liu26am.html",
+        "year": 2026,
+        "venue": "ICML 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "a1b5ce775217",
+        "title": "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols（ViFailback）",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zeng_Diagnose_Correct_and_Learn_from_Manipulation_Failures_via_Visual_Symbols_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "bf14ad356f3c",
+        "title": "RC-NF: Robot-Conditioned Normalizing Flow for Real-Time Anomaly Detection in Robotic Manipulation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_RC-NF_Robot-Conditioned_Normalizing_Flow_for_Real-Time_Anomaly_Detection_in_Robotic_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "7def02b1f9db",
+        "title": "ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "35e36474deb1",
+        "title": "SaPaVe: Towards Active Perception and Manipulation in Vision-Language Action Models for Robotics",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_SaPaVe_Towards_Active_Perception_and_Manipulation_in_Vision-Language_Action_Models_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "1457bddde36b",
+        "title": "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FluidGaussian_Propagating_Simulation-Based_Uncertainty_Toward_Functionally-Intelligent_3D_Reconstruction_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "05b6ae1fd2ca",
+        "title": "VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tran_VarSplat_Uncertainty-aware_3D_Gaussian_Splatting_for_Robust_RGB-D_SLAM_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "f4c0f2973972",
+        "title": "Coverage Optimization for Camera View Selection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Coverage_Optimization_for_Camera_View_Selection_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "aa2e3445b6e0",
+        "title": "Understanding and Mitigating Hallucinations in Multimodal Chain-of-Thought Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_Understanding_and_Mitigating_Hallucinations_in_Multimodal_Chain-of-Thought_Models_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "ad2ed001934b",
+        "title": "Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38936",
+        "year": 2026,
+        "venue": "AAAI 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "0679cd8d8b11",
+        "title": "From Passive Observer to Active Critic: Reinforcement Learning Elicits Process Reasoning for Robotic Manipulation（PRIMO R1）",
+        "url": "https://10-oasis-01.github.io/primo-r1-website/",
+        "year": 2026,
+        "venue": "ECCV（作者项目页）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "4ebd3a923f13",
+        "title": "Predictive Photometric Uncertainty in Gaussian Splatting for Novel View Synthesis",
+        "url": "https://doi.org/10.1007/978-3-032-37553-7_27",
+        "year": 2026,
+        "venue": "ECCV",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "56859c7d4b03",
+        "title": "Online Robot Manipulation Error Detection and Description（STREAM-FAIL）",
+        "url": "https://omron-sinicx.github.io/Online_Robot_Error_Detection/",
+        "year": 2026,
+        "venue": "CoRL（作者项目页）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "730bfb0a9651",
+        "title": "VLA-FAIL: Efficient Task Failure Detection for Finetuned Vision-Language-Action Models",
+        "url": "https://arxiv.org/abs/2606.21386",
+        "year": 2026,
+        "venue": "CoRL（作者 arXiv 元数据）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "1612f063f4d6",
+        "title": "I-FailSense: Towards General Robotic Failure Detection with Vision-Language Models",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11695934",
+        "year": 2026,
+        "venue": "ICRA",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "3884ff542fb4",
+        "title": "Anomaly Detection for Generic Failure Monitoring in Robotic Assembly, Screwing and Manipulation",
+        "url": "https://ieeexplore.ieee.org/document/11395998/",
+        "year": 2026,
+        "venue": "IEEE Robotics and Automation Letters",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "22712ddcd30b",
+        "title": "HEAPGrasp: Hand-Eye Active Perception to Grasp Objects With Diverse Optical Properties",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11345713",
+        "year": 2026,
+        "venue": "IEEE Robotics and Automation Letters",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "f65a939cf4e2",
+        "title": "AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/70a06501001e1820fd1eb9ee821302d2-Abstract-Conference.html",
+        "year": 2025,
+        "venue": "ICLR 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "4d1283871222",
+        "title": "SAFE: Multitask Failure Detection for Vision-Language-Action Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/392d0d05e2f514063e6ce6f8b370834c-Abstract-Conference.html",
+        "year": 2025,
+        "venue": "NeurIPS 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "91a806bc562c",
+        "title": "Failure Prediction at Runtime for Generative Robot Policies",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0b7cb3b8cc44e652761245537027db44-Abstract-Conference.html",
+        "year": 2025,
+        "venue": "NeurIPS 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "5a0d03319957",
+        "title": "Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_Code-as-Monitor_Constraint-aware_Visual_Programming_for_Reactive_and_Proactive_Robotic_Failure_CVPR_2025_paper.pdf",
+        "year": 2025,
+        "venue": "CVPR 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "641254764342",
+        "title": "IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_IGL-Nav_Incremental_3D_Gaussian_Localization_for_Image-goal_Navigation_ICCV_2025_paper.html",
+        "year": 2025,
+        "venue": "ICCV 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "a32a5336b599",
+        "title": "Move to Understand a 3D Scene: Bridging Visual Grounding and Exploration for Efficient and Versatile Embodied Navigation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_Move_to_Understand_a_3D_Scene_Bridging_Visual_Grounding_and_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "venue": "ICCV 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "061d3b39f230",
+        "title": "Modeling Uncertainty for Gaussian Splatting",
+        "url": "https://doi.org/10.1109/TNNLS.2025.3553582",
+        "year": 2025,
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "c171bddf3da3",
+        "title": "Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies",
+        "url": "https://roboticsproceedings.org/rss21/p073.html",
+        "year": 2025,
+        "venue": "RSS",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "5b1f8cf24b03",
+        "title": "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction",
+        "url": "https://www.roboticsproceedings.org/rss21/p030.html",
+        "year": 2025,
+        "venue": "RSS",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "107414ce846f",
+        "title": "Eye, Robot: Learning to Look to Act with a BC-RL Perception-Action Loop",
+        "url": "https://proceedings.mlr.press/v305/kerr25a.html",
+        "year": 2025,
+        "venue": "CoRL，PMLR 305",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "193c7716c851",
+        "title": "Observe Then Act: Asynchronous Active Vision-Action Model for Robotic Manipulation",
+        "url": "https://ieeexplore.ieee.org/document/10883018/",
+        "year": 2025,
+        "venue": "IEEE Robotics and Automation Letters",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "1207ce484360",
+        "title": "Enhancing Video-Based Robot Failure Detection Using Task Knowledge",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11162998",
+        "year": 2025,
+        "venue": "IEEE ECMR",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "295cf292a0be",
+        "title": "SV-Grasp: Semantic Verification for Language-Guided Robotic Grasping",
+        "url": "https://doi.org/10.1109/ACIRS66343.2025.11360845",
+        "year": 2025,
+        "venue": "ACIRS",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "3aa14eeec450",
+        "title": "Sim2Real Transfer for Vision-Based Grasp Verification",
+        "url": "https://arw-proceedings.acin.tuwien.ac.at/article/id/722",
+        "year": 2025,
+        "venue": "Austrian Robotics Workshop",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "3e449e1cb46f",
+        "title": "ReViP: Mitigating False Completion in Vision-Language-Action Models with Vision-Proprioception Rebalance",
+        "url": "https://arxiv.org/abs/2601.16667",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "6ac5e34e2b4e",
+        "title": "RAFAIL: Relationship-Aware Failure Detection for Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2609.18324",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "ce45965fdf73",
+        "title": "KITE: Keyframe-Indexed Tokenized Evidence for VLM-Based Robot Failure Analysis",
+        "url": "https://arxiv.org/abs/2604.07034",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "0ef8904e4b1c",
+        "title": "A Bayesian Approach for Task-Specific Next-Best-View Selection with Uncertain Geometry",
+        "url": "https://arxiv.org/abs/2605.05095",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "89817ce51454",
+        "title": "Active Perception for Embodied Disambiguation",
+        "url": "https://arxiv.org/abs/2608.13605",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "1d8e2dff615b",
+        "title": "CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation",
+        "url": "https://arxiv.org/abs/2610.28476",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "871057e57b78",
+        "title": "Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons",
+        "url": "https://arxiv.org/abs/2603.02115",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "f10f233b658c",
+        "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
+        "url": "https://arxiv.org/abs/2608.13438",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "c7299bb91146",
+        "title": "Foresight: Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents",
+        "url": "https://arxiv.org/abs/2606.23085",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "c9edea90fe60",
+        "title": "Learning to See and Act: Task-Aware View Planning for Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2508.05186",
+        "year": 2025,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      }
+    ]
+  },
+  {
+    "id": "empirical",
+    "name": "实证论文",
+    "contribution": "通过系统实验发现、解释或量化一个现象",
+    "evidence": "现象何时发生、为什么可能发生、在哪些条件下能复现，排除明显的替代解释",
+    "note": "",
+    "papers": [
+      {
+        "id": "cc0222d915ec",
+        "title": "Assessing Vision-Language Models for Failure Detection in Robotic Manipulation",
+        "url": "https://doi.org/10.1109/MPULS.2026.3659245",
+        "year": 2026,
+        "venue": "IEEE Pulse",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "01af77a1e70a",
+        "title": "HEAL: An Empirical Study on Hallucinations in Embodied Agents Driven by Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-emnlp.1158/",
+        "year": 2025,
+        "venue": "EMNLP Findings",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "0386aef4911b",
+        "title": "How Visible Are Silent Manipulation Failures? An Observability Study of False-Success Detection in Simulated Robot Episodes",
+        "url": "https://arxiv.org/abs/2606.03134",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "7e913d472e7a",
+        "title": "Benchmarking Vision-Language-Action Models on SO-101: Failure and Recovery Analysis",
+        "url": "https://arxiv.org/abs/2606.08881",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "620af2de68f5",
+        "title": "When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence",
+        "url": "https://arxiv.org/abs/2609.21942",
+        "year": 2026,
+        "venue": "IROS Workshop",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "7670a3317a55",
+        "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
+        "url": "https://arxiv.org/abs/2608.04574",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "30ada6d48da8",
+        "title": "Audit Before You Commit: Locating Belief Failures in Active Identification for One-Shot Manipulation",
+        "url": "https://arxiv.org/abs/2609.30608",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      }
+    ]
+  },
+  {
+    "id": "systems",
+    "name": "系统论文",
+    "contribution": "设计一个端到端系统，解决真实运行中的关键约束",
+    "evidence": "系统能在目标环境运行，整体效果优于合理基线，并交代延迟、资源开销、失败和恢复等实际取舍",
+    "note": "",
+    "papers": [
+      {
+        "id": "21dafd34d5bb",
+        "title": "FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_FLARE_A_Failure-Aware_Framework_for_Autonomous_Correction_and_Recovery_in_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "d0d216f270d3",
+        "title": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation",
+        "url": "https://roboticsproceedings.org/rss22/p180.html",
+        "year": 2026,
+        "venue": "RSS",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "2552056a30bf",
+        "title": "FIRE-Grasp: Failure-Informed Regrasping With Multimodal Evidence",
+        "url": "https://doi.org/10.1109/LRA.2026.3706934",
+        "year": 2026,
+        "venue": "IEEE Robotics and Automation Letters",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "c8e28acb4f0f",
+        "title": "Reliable Robotic Task Execution in the Face of Anomalies",
+        "url": "https://ieeexplore.ieee.org/document/11244157/",
+        "year": 2026,
+        "venue": "IEEE Robotics and Automation Letters",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "60dc60313d40",
+        "title": "FPC-VLA: A Vision-Language-Action Framework with a Supervisor for Failure Prediction and Correction",
+        "url": "https://doi.org/10.1016/j.eswa.2026.131742",
+        "year": 2026,
+        "venue": "Expert Systems with Applications",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "c076a73cccb4",
+        "title": "FailSafe: Reasoning and Recovery from Failures in Vision-Language-Action Models",
+        "url": "https://arxiv.org/abs/2510.01642",
+        "year": 2026,
+        "venue": "IROS（作者 arXiv 元数据）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "bb47d8bac128",
+        "title": "Active Observation for Robust Visual Servoing in Robotic Manipulation",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11704293/",
+        "year": 2026,
+        "venue": "IEEE CASE",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "d48d24e05d92",
+        "title": "Closed-Loop Grasp Verification via Structured Multi-Sensor Reasoning Under Occlusion",
+        "url": "https://doi.org/10.1109/CROS69211.2026.11565735",
+        "year": 2026,
+        "venue": "Brazilian Conference on Robotics（CROS，DOI）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "4b1af5a64a91",
+        "title": "Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fan_Embodied_VideoAgent_Persistent_Memory_from_Egocentric_Videos_and_Embodied_Sensors_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "venue": "ICCV 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "252eddd69d6a",
+        "title": "Next Best Sense: Guiding Vision and Touch with FisherRF for 3D Gaussian Splatting（作者项目页）",
+        "url": "https://arm.stanford.edu/next-best-sense",
+        "year": 2025,
+        "venue": "ICRA",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "2420c2255a07",
+        "title": "AutoEval: Autonomous Evaluation of Generalist Robot Manipulation Policies in the Real World",
+        "url": "https://proceedings.mlr.press/v305/zhou25a.html",
+        "year": 2025,
+        "venue": "CoRL",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "90c89e093a76",
+        "title": "A Unified Framework for Real-Time Failure Handling in Robotics Using Vision-Language Models, Reactive Planner and Behavior Trees",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11164021",
+        "year": 2025,
+        "venue": "IEEE CASE",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "5548bb6566f0",
+        "title": "PIER: An Evidence-Gated Execution Interface for Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2610.12123",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "e0bd92773eb8",
+        "title": "CoreSense: Traceable Failure Recall and Conflict-Aware Belief Gating for Auditable Robot Decisions",
+        "url": "https://arxiv.org/abs/2609.19512",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "0d6eb058c1ef",
+        "title": "SplatSearch: Instance Image Goal Navigation for Mobile Robots using 3D Gaussian Splatting and Diffusion Models",
+        "url": "https://arxiv.org/abs/2511.12972",
+        "year": 2025,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "70ac10de5100",
+        "title": "RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction",
+        "url": "https://arxiv.org/abs/2505.12224",
+        "year": 2025,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      }
+    ]
+  },
+  {
+    "id": "benchmarks",
+    "name": "数据集与基准论文",
+    "contribution": "提供新的数据资源，或建立一套可复用的评测任务、标注规范和指标",
+    "evidence": "数据或评测填补了什么缺口，标注是否可靠，基准能否揭示旧评测看不到的问题",
+    "note": "",
+    "papers": [
+      {
+        "id": "af10c6c53506",
+        "title": "Can VLMs Diagnose and Recover from VLA Manipulation Faults?（VLA-FixBench）",
+        "url": "https://proceedings.mlr.press/v306/yan26r.html",
+        "year": 2026,
+        "venue": "ICML 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "0111b1e25f03",
+        "title": "When Robots Should Say “I Don’t Know”: Benchmarking Abstention in Embodied Question Answering",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_When_Robots_Should_Say_I_Dont_Know_Benchmarking_Abstention_in_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "5b4e8a2e2d91",
+        "title": "LIBERO-Plus: A Progressive Robustness Benchmark for Visual-Language-Action Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html",
+        "year": 2026,
+        "venue": "CVPR 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "f2071083f249",
+        "title": "Visual-Tactile Grasp Dataset and Grasp Margin Matrix Analysis for Stability Evaluation",
+        "url": "https://doi.org/10.1109/TRO.2026.3672523",
+        "year": 2026,
+        "venue": "IEEE Transactions on Robotics",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "587e0991eb7f",
+        "title": "RoboBench: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models as Embodied Brain",
+        "url": "https://robo-bench.github.io/",
+        "year": 2026,
+        "venue": "ECCV（作者项目页）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "4c76d3ce1ac4",
+        "title": "DASH: Detection and Assessment of Systematic Hallucinations of VLMs",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Augustin_DASH_Detection_and_Assessment_of_Systematic_Hallucinations_of_VLMs_ICCV_2025_paper.html",
+        "year": 2025,
+        "venue": "ICCV 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "02f9303ded4e",
+        "title": "PAC Bench: Do Foundation Models Understand Prerequisites for Executing Manipulation Policies?",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ecafb09de180aaad7b7205be7eb24a4-Abstract-Datasets_and_Benchmarks_Track.html",
+        "year": 2025,
+        "venue": "NeurIPS Datasets and Benchmarks 赛道",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "b198b056da7e",
+        "title": "Demonstrating REASSEMBLE: A Multimodal Dataset for Contact-Rich Robotic Assembly and Disassembly",
+        "url": "https://www.roboticsproceedings.org/rss21/p059.pdf",
+        "year": 2025,
+        "venue": "RSS（论文集题名）",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "185738f5bc1d",
+        "title": "FailBench: How Reliable are VLMs at Judging Robot Task Success?",
+        "url": "https://arxiv.org/abs/2609.03611",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "14c5fb2b8387",
+        "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+        "url": "https://arxiv.org/abs/2609.05178",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "b55660ccdabd",
+        "title": "RoboReward: General-Purpose Vision-Language Reward Models for Robotics",
+        "url": "https://arxiv.org/abs/2601.00675",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      },
+      {
+        "id": "1e1006317f6a",
+        "title": "PInVerify: An Offline Embodied Benchmark for Active Instance Verification",
+        "url": "https://arxiv.org/abs/2605.30639",
+        "year": 2026,
+        "venue": "CVPR FMEA Workshop",
+        "scope": "",
+        "supplemental": true
+      }
+    ]
+  },
+  {
+    "id": "theory",
+    "name": "理论论文",
+    "contribution": "提出形式化模型、定理、界限或可证明的条件",
+    "evidence": "结论在什么假设下成立，证明是否严格，能解释或指导什么",
+    "note": "目录暂未核实到直接研究抓取后主动视觉核验的纯理论正式论文。已收录相邻的理论与方法研究。",
+    "papers": [
+      {
+        "id": "c3deabd6b713",
+        "title": "Conformal Policy Control",
+        "url": "https://proceedings.mlr.press/v306/prinster26a.html",
+        "year": 2026,
+        "venue": "ICML 主会",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "1bd545835588",
+        "title": "Action Hallucination in Generative Vision-Language-Action Models",
+        "url": "https://arxiv.org/abs/2602.06339",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      }
+    ]
+  },
+  {
+    "id": "surveys",
+    "name": "综述论文",
+    "contribution": "整理和比较已有研究，建立分类、厘清争议或指出研究缺口",
+    "evidence": "文献选择有依据，比较有统一维度，能帮助读者理解领域现状和边界",
+    "note": "",
+    "papers": [
+      {
+        "id": "1883933f7c04",
+        "title": "Embodied Robot Manipulation in the Era of Foundation Models: Planning and Learning Perspectives",
+        "url": "https://doi.org/10.1109/TRO.2026.3734032",
+        "year": 2026,
+        "venue": "IEEE Transactions on Robotics",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "7c3085fd924b",
+        "title": "A Survey on 3D Gaussian Splatting",
+        "url": "https://doi.org/10.1145/3807511",
+        "year": 2026,
+        "venue": "ACM Computing Surveys",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "ff6bdca1dfd9",
+        "title": "Multimodal Fusion with Vision-Language-Action Models for Robotic Manipulation: A Systematic Review",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1566253525011248",
+        "year": 2026,
+        "venue": "Information Fusion",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "96a16d69574b",
+        "title": "Active Visual Perception: Opportunities and Challenges",
+        "url": "https://doi.org/10.3390/s26206544",
+        "year": 2026,
+        "venue": "Sensors",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "f9e743950187",
+        "title": "Long-Horizon Embodied Manipulation: A Survey of Methods, Trends, and Challenges",
+        "url": "https://link.springer.com/article/10.1007/s44336-026-00048-x",
+        "year": 2026,
+        "venue": "Discover Robotics",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "74e14df94724",
+        "title": "A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics",
+        "url": "https://www.ijcai.org/proceedings/2025/1168.pdf",
+        "year": 2025,
+        "venue": "IJCAI 主会",
+        "scope": "核心",
+        "supplemental": false
+      },
+      {
+        "id": "7d4c864bc92c",
+        "title": "Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications",
+        "url": "https://doi.org/10.1109/ACCESS.2025.3609980",
+        "year": 2025,
+        "venue": "IEEE Access",
+        "scope": "支撑",
+        "supplemental": false
+      },
+      {
+        "id": "573d1658e043",
+        "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+        "url": "https://arxiv.org/abs/2607.21655",
+        "year": 2026,
+        "venue": "arXiv",
+        "scope": "",
+        "supplemental": true
+      }
+    ]
+  },
+  {
+    "id": "reproduction",
+    "name": "复现与复核论文",
+    "contribution": "独立复现已有结果，检验结论对数据、实现或实验设置是否敏感",
+    "evidence": "复现条件可追溯，差异经过分析，并说明哪些原结论稳健、哪些依赖特定条件",
+    "note": "目录暂未核实到以独立复现抓取后核验方法为主要贡献的正式论文。FailBench 可作为复核型研究的阅读入口，其主要贡献归于数据集与基准。",
+    "papers": []
+  }
+]

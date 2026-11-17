@@ -104,7 +104,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               </div>
 
               <div className="hidden md:block">
-                <FloatingPlayer />
+                {process.env.NEXT_PUBLIC_STATIC_EXPORT !== "1" && <FloatingPlayer />}
               </div>
 
               <div className="hidden md:block">

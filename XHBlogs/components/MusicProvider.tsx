@@ -109,7 +109,7 @@ export function MusicProvider({ children }: { children: ReactNode }) {
       }
     };
 
-    if (siteConfig.cloudMusicIds?.length > 0) fetchMusicData();
+    if (process.env.NEXT_PUBLIC_STATIC_EXPORT !== "1" && siteConfig.cloudMusicIds?.length > 0) fetchMusicData();
     else setIsLoading(false);
 
     return () => { isMounted = false; };

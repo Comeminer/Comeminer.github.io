@@ -107,7 +107,7 @@ export default function Home() {
                 </div>
                 {/* 手机上占满1列，电脑上占5列 */}
                 <div className="col-span-1 lg:col-span-5 flex flex-col">
-                    <CloudPlayer/>
+                    {process.env.NEXT_PUBLIC_STATIC_EXPORT !== "1" && <CloudPlayer />}
                 </div>
               </div>
 

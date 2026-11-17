@@ -211,7 +211,7 @@ export default function BigFishPet({ preferences }: { preferences: Preferences }
         )}
         <div role="group" aria-label="大肥鱼快捷操作"
           className="absolute right-[5%] top-1/2 z-10 flex -translate-y-1/2 flex-col gap-0.5 rounded-full border border-white/70 bg-white/85 p-1 shadow-lg shadow-slate-950/10 backdrop-blur-md dark:border-white/15 dark:bg-slate-900/75">
-          <PetAction kind="chat" expanded={panel === 'chat'} onClick={() => togglePanel('chat')} />
+          {process.env.NEXT_PUBLIC_STATIC_EXPORT !== "1" && <PetAction kind="chat" expanded={panel === 'chat'} onClick={() => togglePanel('chat')} />}
           {preferences.todoEnabled && <PetAction kind="todo" expanded={panel === 'todo'} onClick={() => togglePanel('todo')} />}
         </div>
         <button type="button" aria-label="摸摸大肥鱼，也可以拖动" title="按住大肥鱼可以拖动"

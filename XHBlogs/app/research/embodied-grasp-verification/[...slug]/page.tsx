@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '../../../../components/Navbar';
+import { BackgroundPlaybackButton } from '../../../../components/BackgroundPlayback';
 import categories from '../../../../data/grasp-verification-papers.json';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -93,7 +94,10 @@ export default async function ResearchPage(props: Props) {
               <p className="mt-4 text-slate-600 dark:text-slate-300">
                 {[paper.year, paper.venue, paper.scope].filter(Boolean).join(' · ')}
               </p>
-              <p className="mt-4"><a className={linkStyle} href={paper.url}>阅读原文</a></p>
+              <div className="mt-4 flex flex-wrap items-center gap-4">
+                <a className={linkStyle} href={paper.url}>阅读原文</a>
+                <BackgroundPlaybackButton />
+              </div>
               {noteHtml ? (
                 <>
                   <style>{`

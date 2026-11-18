@@ -1,28 +1,8 @@
 "use client";
-import { useState, useEffect } from 'react';
-import { siteConfig } from '../siteConfig';
+import { useBackgroundPlayback } from './BackgroundPlayback';
 
 export default function BackgroundSlider() {
-  const [index, setIndex] = useState(0);
-
-  // 🌟 壁纸分组系统：优先使用「激活分组」的图片轮播；无分组数据时回退到旧版 bgImages
-  const activeGroup = siteConfig.bgGroups?.find(
-    (g) => g.id === siteConfig.activeBgGroup
-  );
-  const images = activeGroup ? activeGroup.images : siteConfig.bgImages || [];
-
-  useEffect(() => {
-    if (images.length <= 1) return;
-
-    const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % images.length);
-    }, 10000); // 10秒切换一次
-
-    return () => clearInterval(timer);
-  }, [images.length]);
-
-  // 图片列表长度变化时重置索引，防止越界
-  useEffect(() => { setIndex(0); }, [images.length]);
+  const { images, index, paused } = useBackgroundPlayback();
 
   return (
     <div className="absolute inset-0 z-[-10] overflow-hidden">
@@ -32,6 +12,7 @@ export default function BackgroundSlider() {
           className="absolute inset-0 transition-opacity duration-[2000ms] ease-in-out transform-gpu"
           style={{
             backgroundImage: `url(${img})`,
+            transitionDuration: paused ? '0ms' : '2000ms',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             // 当前显示的图片 opacity 为 1，其他的为 0

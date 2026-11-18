@@ -9,6 +9,7 @@ import FloatingPlayer from "../components/FloatingPlayer";
 import { siteConfig } from "../siteConfig";
 import ClickEffect from "../components/ClickEffect";
 import BackgroundSlider from "../components/BackgroundSlider";
+import { BackgroundPlaybackProvider } from "../components/BackgroundPlayback";
 import GlobalToolbox from "../components/GlobalToolbox";
 import SplashScreen from "../components/SplashScreen";
 import CyberCat from '../components/CyberCat';
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 
       <body className="w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif">
         <ThemeProvider>
+          <BackgroundPlaybackProvider>
 
           <SplashScreen />
 
@@ -136,6 +138,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </div>
           )}
 
+          </BackgroundPlaybackProvider>
         </ThemeProvider>
       </body>
     </html>
